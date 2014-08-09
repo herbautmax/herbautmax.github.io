@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Singablues</title>
+    <description>Blog d'un étudiant français à Singapour : Anecdotes, voyages et rencontres en Asie du Sud Est</description>
+    <link>http://localhost:4000//</link>
+    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 09 Aug 2014 14:16:07 +0800</pubDate>
+    <lastBuildDate>Sat, 09 Aug 2014 14:16:07 +0800</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>en markdown</title>
+        <description>&lt;h1 id=&quot;a-first-level-header&quot;&gt;A First Level Header&lt;/h1&gt;
+
+&lt;h2 id=&quot;a-second-level-header&quot;&gt;A Second Level Header&lt;/h2&gt;
+
+&lt;p&gt;Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.&lt;/p&gt;
+
+&lt;p&gt;The quick brown fox jumped over the lazy
+dog’s back.&lt;/p&gt;
+
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a blockquote.&lt;/p&gt;
+
+  &lt;p&gt;This is the second paragraph in the blockquote.&lt;/p&gt;
+
+  &lt;h2 id=&quot;this-is-an-h2-in-a-blockquote&quot;&gt;This is an H2 in a blockquote&lt;/h2&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some of these words &lt;em&gt;are emphasized&lt;/em&gt;.
+Some of these words &lt;em&gt;are emphasized also&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Use two asterisks for &lt;strong&gt;strong emphasis&lt;/strong&gt;.
+Or, if you prefer, &lt;strong&gt;use two underscores instead&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 09 Aug 2014 07:22:01 +0800</pubDate>
+        <link>http://localhost:4000//markdown</link>
+        <guid isPermaLink="true">http://localhost:4000//markdown</guid>
+        
+        <category>test</category>
+        
+        <category>coucou</category>
+        
+        
+        <category>jekyll update</category>
+        
+      </item>
+    
+      <item>
+        <title>en html</title>
+        <description>&lt;pre&gt;
+&lt;b&gt;text&lt;/b&gt;
+&lt;/pre&gt;
+
+&lt;b&gt;text&lt;/b&gt;</description>
+        <pubDate>Sat, 09 Aug 2014 07:22:01 +0800</pubDate>
+        <link>http://localhost:4000//html</link>
+        <guid isPermaLink="true">http://localhost:4000//html</guid>
+        
+        
+        <category>text</category>
+        
+      </item>
+    
+      <item>
+        <title>en textile</title>
+        <description>&lt;div class=&quot;image&quot;&gt;&lt;img src=&quot;http://redcloth.org/hobix.com/textile/sample.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;p class=&quot;section&quot;&gt;This i smy first article 2F&lt;/p&gt;
+&lt;pre&gt;
+&amp;lt;b&amp;gt;text&amp;lt;/b&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;&lt;b&gt;text&lt;/b&gt;&lt;/p&gt;</description>
+        <pubDate>Sat, 09 Aug 2014 07:22:01 +0800</pubDate>
+        <link>http://localhost:4000//textile</link>
+        <guid isPermaLink="true">http://localhost:4000//textile</guid>
+        
+        
+        <category>text</category>
+        
+      </item>
+    
+  </channel>
+</rss>

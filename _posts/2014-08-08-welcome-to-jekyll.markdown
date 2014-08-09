@@ -1,24 +1,38 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-08-08 19:40:06
-categories: jekyll update
+title:  en markdown
+date:   2014-08-08 23:22:01
+permalink : markdown
+published : true
+category: jekyll update
+tags : test coucou
+text : texte content
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
 
-Jekyll also offers powerful support for code snippets:
+A First Level Header
+====================
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+A Second Level Header
+---------------------
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+Now is the time for all good men to come to
+the aid of their country. This is just a
+regular paragraph.
 
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
+The quick brown fox jumped over the lazy
+dog's back.
+
+### Header 3
+
+> This is a blockquote.
+> 
+> This is the second paragraph in the blockquote.
+>
+> ## This is an H2 in a blockquote
+
+Some of these words *are emphasized*.
+Some of these words _are emphasized also_.
+
+Use two asterisks for **strong emphasis**.
+Or, if you prefer, __use two underscores instead__.
