@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
+<div class="row">
     {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
+    <div class="col-sm-12 col-md-12">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="thumbnail">
+                <div class="caption">
+                   {{ post.title }}
+                </div>
+                <img src="{{ site.url }}image/img.jpg" />
+
+            </div>
+        </a>
+    </div>
+
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>
+
