@@ -6,4 +6,4 @@ published: false
 
 Article écrit avec Prose
 
-![image](/_posts/DSC01732.JPG)
+![](/img.jpg)
