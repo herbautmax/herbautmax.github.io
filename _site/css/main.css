@@ -1,9 +1,20 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
     line-height: 1.5;
     font-weight: 300;
     background-color: #fdfdfd;
+    color:#333; 
+}
+
+.title{
+    font-family: 'Francois One', sans-serif;
+    font-size: 22px;
+}
+
+.subtitle{
+    color : #999;
+    margin-left:5px; 
 }
 
 .no_margin{
@@ -11,11 +22,22 @@ body {
     margin-right: 0;
 }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #F54A05; text-decoration: none; }
-a:visited { color: #F54A05; }
+a         { 
+    color: #2a7ae2; 
+    text-decoration: none; 
+}
+a:hover   { 
+    color: #F54A05; 
+    text-decoration: none; 
+}
+a:visited { 
+    color: #F54A05; 
+}
 
-
+article p{
+    margin-top:10px; 
+    text-align: justify;
+}
 
 .header_container{
     min-height : 50px; 
@@ -54,3 +76,4 @@ table {
 .social-ul li a:hover{
     color:#aaa
 }
+
