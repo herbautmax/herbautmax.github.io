@@ -10,3 +10,8 @@ github_username:  herbautmax
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+paginate: 2                   # le nombre d'articles à afficher par page
+paginate_path: /page:num      # l'url générée pour la pagination
+
+

@@ -5,8 +5,8 @@
     <description>Blog d'un étudiant français à Singapour : Anecdotes, voyages et rencontres en Asie du Sud Est</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Aug 2014 16:51:19 +0800</pubDate>
-    <lastBuildDate>Sun, 10 Aug 2014 16:51:19 +0800</lastBuildDate>
+    <pubDate>Sun, 10 Aug 2014 20:27:36 +0800</pubDate>
+    <lastBuildDate>Sun, 10 Aug 2014 20:27:36 +0800</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -36,7 +36,7 @@
         <guid isPermaLink="true">http://localhost:4000//national-day-parade-2014</guid>
         
         
-        <category>la ville</category>
+        <category>ville</category>
         
       </item>
     
@@ -67,7 +67,7 @@
         <guid isPermaLink="true">http://localhost:4000//devenir-un-vrai-singapourien</guid>
         
         
-        <category>la ville</category>
+        <category>ville</category>
         
       </item>
     
@@ -125,7 +125,7 @@
         <guid isPermaLink="true">http://localhost:4000//marina-bay</guid>
         
         
-        <category>la ville</category>
+        <category>ville</category>
         
       </item>
     

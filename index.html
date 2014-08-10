@@ -2,9 +2,8 @@
 layout: default
 ---
 
-
 <div class="row">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <div class="col-sm-12 col-md-6">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="thumbnail">
@@ -23,4 +22,8 @@ layout: default
 
     {% endfor %}
 </div>
+
+{% include pagination.html %}
+
+
 

@@ -1,34 +1,13 @@
 <div class="row">
     <div class="panel panel-default">
-        <div class="panel-heading">SingaBlues</div>
-        <div class="panel-body">
-            <table class="table">
-                <tr>
-                    <td>
-                        <img width="80px" src="{{ site.url }}image/moi.jpg"  alt="" class="img-circle">
-
-                    </td>
-                    <td>
-                        Bienvenue sur mon blog! Ce dernier a 2 objectifs :
-                        <ul>
-                            <li>Essayer la technologie Jekyll</li>
-                            <li>Racontez mes aventures pendant mon stage à Singapour</li>
-                        </ul>
-                    </td> 
-                </tr>
-            </table>
-
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="panel panel-default">
         <div class="panel-heading">Catégories</div>
         <div class="panel-body">
-            <ul >
-                <li><a href="#">catégorie1</a></li>
-                <li><a href="#">catégorie2</a></li>
+            <ul>
+                {% for category in site.categories %}
+                <li><a href="{{site.url}}{{category[0]}}">{{category[0]}}</a></li>
+                {% endfor %} 
+                
+         
             </ul>
         </div>
     </div>
