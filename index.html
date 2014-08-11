@@ -1,29 +1,32 @@
 ---
 layout: default
 ---
-
-<div class="row">
-    {% for post in paginator.posts %}
-    <div class="col-sm-12 col-md-6">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-            <div class="thumbnail">
-                <div class="caption title">
-                    {{ post.title }}
-                </div>
-                <p class="subtitle">
-                    <i class="fa fa-user"></i> Maxime
-                    <i class="fa fa-calendar" style="margin-left: 10px;"></i> {{post.date|date_to_long_string}}
-                    <i class="fa fa-cubes"  style="margin-left:10px;"></i> {{ post.category }}
-                </p>
-                <img src="{{ post.img }}" />
+<div class="container_perso">
+    <div class='col-xs-12 col-sm-10 col-sm-offset-1'>
+        <div class="row">
+            {% for post in paginator.posts %}
+            <div class="col-xs-12 col-sm-6">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                    <div class="thumbnail">
+                        <img src="{{ post.img }}" />
+                        <span class="caption title">
+                            {{ post.title }}
+                        </span>
+                        <span class="subtitle"> {{post.date|date_to_long_string}} </span>
+                    </div>
+                </a>
             </div>
-        </a>
-    </div>
 
-    {% endfor %}
+            {% endfor %}
+        </div>
+
+        {% include pagination.html %}
+
+    </div>
 </div>
 
-{% include pagination.html %}
+
+
 
 
 

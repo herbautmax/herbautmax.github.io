@@ -3,9 +3,44 @@ body {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 300;
-    background-color: #fdfdfd;
+    background-color: #F1F1F1;
     color:#333; 
 }
+
+.header_container{
+    height : 50px; 
+    background: #00001F ;
+    color : white;
+}
+
+.site_title{
+    font-family: 'Lobster', cursive;
+    font-size: 33px;
+    margin-left: 5px; 
+}
+
+.site_title:hover{
+    color:white
+}
+.site_title:visited{
+    color:white   
+}
+
+.logo{ 
+    margin-top:-12px; 
+    margin-left: 20px; 
+    width:69px;
+    border-radius: 50%; 
+}
+
+.img_header{
+    height: 80px; 
+    background-position: -253px 1544px;
+    -webkit-box-shadow: 2px 2px 9px 0px rgba(49, 50, 50, 0.68);
+    -moz-box-shadow:    2px 2px 9px 0px rgba(49, 50, 50, 0.68);
+    box-shadow:         2px 2px 9px 0px rgba(49, 50, 50, 0.68);
+}
+
 
 .title{
     font-family: 'Francois One', sans-serif;
@@ -13,6 +48,8 @@ body {
 }
 
 .subtitle{
+    font-family: 'Francois One', sans-serif;
+    font-size: 14px;
     color : #999;
     margin-left:5px; 
 }
@@ -22,7 +59,7 @@ body {
     margin-right: 0;
 }
 
-a         { 
+a { 
     color: #2a7ae2; 
     text-decoration: none; 
 }
@@ -37,27 +74,6 @@ a:visited {
 article p{
     margin-top:10px; 
     text-align: justify;
-}
-
-.header_container{
-    min-height : 50px; 
-    background: #2E3639 ;
-    color : white;
-    vertical-align: middle;  
-}
-
-.site_title{
-    color:white    
-}
-.site_title:hover{
-    color:white
-}
-.site_title:visited{
-    color:white   
-}
-
-.container{
-    margin-top:20px; 
 }
 
 table {
@@ -76,4 +92,31 @@ table {
 .social-ul li a:hover{
     color:#aaa
 }
+
+
+@media (min-width:768px) { 
+    .thumbnail{
+        min-height: 410px; 
+    }    
+}
+
+.container_perso{
+    margin-top: 3%; 
+}
+
+.thumbnail{
+    border:0;
+    padding: 0; 
+} 
+
+.color{
+    color: #F54A05; 
+}
+
+.other{
+    margin-top: 50px; 
+}
+
+
+
 
