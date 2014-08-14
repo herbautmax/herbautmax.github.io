@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
     background-color: #F1F1F1;
@@ -45,6 +45,15 @@ body {
 .title{
     font-family: 'Francois One', sans-serif;
     font-size: 22px;
+    color:#00001F;
+}
+
+
+
+.title_post{
+    font-family: 'Francois One', sans-serif;
+    font-size: 30px;
+    color:#00001F;
 }
 
 .subtitle{
@@ -60,7 +69,7 @@ body {
 }
 
 a { 
-    color: #2a7ae2; 
+    color: #00001F; 
     text-decoration: none; 
 }
 a:hover   { 
@@ -68,11 +77,14 @@ a:hover   {
     text-decoration: none; 
 }
 a:visited { 
-    color: #F54A05; 
+    color: #00001F; 
 }
 
 article p{
-    margin-top:16px; 
+    margin-top:15px; 
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     text-align: justify;
 }
 
@@ -107,30 +119,32 @@ table {
 .thumbnail{
     border:0;
     padding: 0; 
+
 } 
 
 .color{
     color: #F54A05; 
 }
 
-.other{
-    margin-top: 40px; 
+
+
+.white{
+    background-color: white; 
+    padding:20px;
+    margin-top:30px; 
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+.fb-like{
+    margin-top:10px; 
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.section{
+    margin-bottom:35px; 
+}
+
+.section:last-child
+{
+    margin-bottom:0px; 
 }
 
 
