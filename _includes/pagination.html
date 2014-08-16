@@ -2,9 +2,9 @@
     <li {% if paginator.previous_page %} {% else %} class="disabled" {% endif %}>
         {% if paginator.previous_page %}
         {% if paginator.previous_page == 1 %}
-        <a href="{{site.url}}">&laquo;</a>
+        <a href="{{site.baseurl}}">&laquo;</a>
         {% else %}
-        <a href="{{site.url}}page{{ paginator.previous_page }}">&laquo;</a>
+        <a href="{{site.baseurl}}page{{ paginator.previous_page }}">&laquo;</a>
         {% endif %}
         {% else %}
         <span>&laquo;</span>
@@ -12,21 +12,21 @@
     </li>
 
     <li {% if paginator.page == 1 %} class="active" {% endif %}>
-        <a href="{{site.url}}">1</a>
+        <a href="{{site.baseurl}}">1</a>
     </li>
 
     {% for count in (2..paginator.total_pages) %}
     <li {% if count == paginator.page %} class="active" {% endif %} >
-        <a href="{{site.url}}page{{ count }}">{{ count }}</a>
+        <a href="{{site.baseurl}}page{{ count }}">{{ count }}</a>
     </li>
     {% endfor %}
 
     <li {% if paginator.next_page %} {% else %} class="disabled" {% endif %}>
         {% if paginator.next_page %}
         {% if paginator.next_page == 1 %}
-        <a href="{{site.url}}">&raquo;</a>
+        <a href="{{site.baseurl}}">&raquo;</a>
         {% else %}
-        <a href="{{site.url}}page{{ paginator.next_page }}">&raquo;</a>
+        <a href="{{site.baseurl}}page{{ paginator.next_page }}">&raquo;</a>
         {% endif %}
         {% else %}
         <span>&raquo;</span>

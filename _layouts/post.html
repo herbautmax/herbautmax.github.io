@@ -85,10 +85,10 @@ layout: default
 <div class="row no_margin">
     <ul class="pager col-sm-12 no_margin hidden-xs">
         {% if page.previous %}
-        <li class="previous"><a href="{{site.url}}{{ page.previous.url }}">&larr; Histoire précédente</a></li>
+        <li class="previous"><a href="{{site.baseurl}}{{ page.previous.url }}">&larr; Histoire précédente</a></li>
         {% endif %}
         {% if page.next %}
-        <li class="next"><a href="{{site.url}}{{ page.next.url }}">Histoire suivante &rarr;</a></li>
+        <li class="next"><a href="{{site.baseurl}}{{ page.next.url }}">Histoire suivante &rarr;</a></li>
         {% endif %}
     </ul>
 </div>
