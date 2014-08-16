@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
     font-weight: 300;
     background-color: #F1F1F1;
     color:#333; 
@@ -46,6 +45,8 @@ body {
     font-family: 'Francois One', sans-serif;
     font-size: 22px;
     color:#00001F;
+    text-transform: uppercase;
+    margin-left:20px; 
 }
 
 
@@ -54,6 +55,8 @@ body {
     font-family: 'Francois One', sans-serif;
     font-size: 30px;
     color:#00001F;
+    text-transform: uppercase;
+    margin-bottom:5px; 
 }
 
 .subtitle{
@@ -61,6 +64,9 @@ body {
     font-size: 14px;
     color : #999;
     margin-left:5px; 
+    margin-bottom: 30px; 
+    padding-rigth:20px; 
+    margin-left:20px; 
 }
 
 .no_margin{
@@ -80,13 +86,6 @@ a:visited {
     color: #00001F; 
 }
 
-article p{
-    margin-top:15px; 
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    text-align: justify;
-}
 
 table {
     border:none; 
@@ -106,21 +105,23 @@ table {
 }
 
 
-@media (min-width:768px) { 
-    .thumbnail{
-        min-height: 410px; 
-    }    
-}
 
 .container_perso{
-    margin-top: 3%; 
+    margin-top: 4%; 
 }
+
 
 .thumbnail{
     border:0;
     padding: 0; 
-
 } 
+
+
+@media (min-width:768px) { 
+    .thumbnail{
+        min-height: 426px; 
+    }    
+}
 
 .color{
     color: #F54A05; 
@@ -130,7 +131,7 @@ table {
 
 .white{
     background-color: white; 
-    padding:20px;
+    padding:30px;
     margin-top:30px; 
 }
 
@@ -140,6 +141,11 @@ table {
 
 .section{
     margin-bottom:35px; 
+    margin-top:15px; 
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: justify;
+    line-height: 2;
 }
 
 .section:last-child
@@ -147,5 +153,18 @@ table {
     margin-bottom:0px; 
 }
 
+.image{
+    margin-top: 20px; 
+    margin-bottom:20px; 
+}
+
+.image:last-child
+{
+    margin-bottom:0px; 
+}
+
+.video{
+    width:80%;
+}
 
 
