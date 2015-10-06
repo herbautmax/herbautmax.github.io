@@ -1,5 +1,5 @@
 # Site settings
-title: Singablues
+title: Maxime Herbaut, Ingénieur Développeur wweb full stack
 email: maximehrbt@gmail.com
 description: "Blog d'un étudiant français à Singapour : Anecdotes, voyages et rencontres en Asie du Sud Est"
 baseurl: ""
@@ -14,6 +14,3 @@ permalink: pretty
 
 paginate: 6                   # le nombre d'articles à afficher par page
 paginate_path: /page:num      # l'url générée pour la pagination
-
-
-    
