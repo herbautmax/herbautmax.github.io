@@ -2,30 +2,5 @@
 layout: default
 ---
 <div class="container_perso">
-    <div class='col-xs-12 col-sm-10 col-sm-offset-1'>
-        <div class="row">
-            {% for post in paginator.posts %}
-            <div class="col-xs-12 col-sm-6">
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <div class="thumbnail">
-                        <img src="{{ post.img }}" />
-                        <div class="title">
-                            {{ post.title }}
-                        </div>
-                        <div class="subtitle"> {{post.date|date_to_long_string}} </div>
-                    </div>
-                </a>
-            </div>
-            {% endfor %}
-        </div>
-
-        {% include pagination.html %}
-
-    </div>
+test
 </div>
-
-
-
-
-
-
