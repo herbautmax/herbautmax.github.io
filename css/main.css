@@ -140,7 +140,7 @@ p{
 
 @media (min-width: 992px){
   .home-main{
-    background: url('https://d2am7l3wurrcf3.cloudfront.net/imagx/4cad2aec?768') no-repeat center center fixed;
+    background: url('../image/home.jpg') no-repeat center center fixed;
   }
 }
 
@@ -276,4 +276,37 @@ h1{
 
 .cursor{
 cursor:pointer;
+}
+
+.send{
+  font-size: 18px;
+    background-color: #b61924;
+    color: white;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.send-icon{
+  margin-right: 10px;
+}
+
+#alert{
+  position: absolute;
+  top: 1px;
+  z-index: 10000000002;
+  width: 100%;
+border-color: #b61924;
+background-color: #b61924;
+color: white;
+font-size: 18px;
+display: none; 
+}
+
+.croix{
+  color: white;
 }

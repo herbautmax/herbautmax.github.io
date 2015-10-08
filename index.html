@@ -2,6 +2,13 @@
 layout: default
 css: index
 ---
+<div class="alert alert-warning alert-dismissible" role="alert" id="alert">
+  <div class="container">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true" class="croix">&times;</span></button>
+  Votre message a bien été envoyé, je vous repondrai dans les plus brefs délais.
+  </div>
+</div>
+
 
 <!-- navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -13,7 +20,7 @@ css: index
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand scrollTo" href="{% if page.url == '/' %}#top{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">Maxime Herbaut</a>
+      <a class="navbar-brand scrollTo" href="{% if page.url == '/' %}#top{% else %}{{ site.url }}{% endif %}">Maxime Herbaut</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -171,7 +178,7 @@ css: index
 
 
 
-          </div>
+        </div>
 
 
 
@@ -185,14 +192,27 @@ css: index
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Modal title</h4>
+            <h4 class="modal-title">Contactez-moi</h4>
           </div>
-          <div class="modal-body">
-            <p>One fine body&hellip;</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+          <form role="form" action="http://formspree.io/maxime-herbaut@orange.fr" id="contactForm" method="post">
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="InputName">Nom</label>
+                <input type="text" class="form-control" name="name" placeholder="Entrez votre nom" required="required">
+              </div>
+              <div class="form-group">
+                <label for="InputEmail">Adresse email</label>
+                <input type="email" class="form-control" name="_replyto" placeholder="Entrez votre adresse" required="required">
+              </div>
+              <div class="form-group">
+                <label for="InputArea">Votre message</label>
+                <textarea class="form-control" rows="5" name="message" required="required" placeholder="Entrez votre message..."></textarea>
+              </div>
+              <input type="hidden" name="_next" value="{{ site.url }}?message=ok" />
+            </div>
+            <div class="modal-footer">
+                      <button type="submit" class="btn btn-default send"><i class="fa fa-paper-plane send-icon"></i> Envoyer votre message</button>
+              </form>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
