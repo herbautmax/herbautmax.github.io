@@ -128,13 +128,13 @@ p{
 
 @media (max-width: 768px){
   .home-main{
-    background: url('https://d2am7l3wurrcf3.cloudfront.net/imagx/4cad2aec?768') no-repeat center center fixed;
+    background: url('../image/home.jpg') no-repeat center center fixed;
   }
 }
 
 @media (min-width: 768px){
   .home-main{
-    background: url('https://d2am7l3wurrcf3.cloudfront.net/imagx/4cad2aec?992') no-repeat center center fixed;
+    background: url('../image/home.jpg') no-repeat center center fixed;
   }
 }
 
