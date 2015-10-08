@@ -1,2 +1,19 @@
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  $('.scrollTo').click( function() { // Au clic sur un élément
+    var page = $(this).attr('href'); // Page cible
+    var speed = 750; // Durée de l'animation (en ms)
+    console.log(page);
+    if (page == "#top"){
+      $('html, body').animate( { scrollTop: 0 }, speed ); // Go
+    }
+    else{
+      $('html, body').animate( { scrollTop: $(page).offset().top - 200 }, speed ); // Go
+    }
+    return false;
+  });
+});
+</script>

@@ -1,170 +1,115 @@
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    background-color: #F1F1F1;
-    color:#333; 
+html{
+  width:100%;
+  height:100%;
 }
 
-.header_container{
-    height : 50px; 
-    background: #00001F ;
+body{
+  color: #333;
+  width:100%;
+  height:100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.site_title{
-    font-family: 'Lobster', cursive;
-    font-size: 33px;
-    margin-left: 5px; 
-    color:white
+.navbar{
+  background-color: white;
+  min-height: 60px;
+  padding-top: 5px;
 }
 
-.site_title:hover{
-    color:white
-}
-.site_title:visited{
-    color:white   
+.navbar-brand{
+  font-size: 22px;
+  font-weight: 700;
 }
 
-.logo{ 
-    margin-top:-12px; 
-    margin-left: 20px; 
-    width:69px;
-    border-radius: 50%; 
+.navbar-right li{
+  margin-left: 50px;
+  font-size: 20px;
 }
 
-.img_header{
-    height: 80px; 
-    background-position: -253px 1544px;
-    -webkit-box-shadow: 2px 2px 9px 0px rgba(49, 50, 50, 0.68);
-    -moz-box-shadow:    2px 2px 9px 0px rgba(49, 50, 50, 0.68);
-    box-shadow:         2px 2px 9px 0px rgba(49, 50, 50, 0.68);
+.navbar-default .navbar-nav>li>a:hover {
+  color: #b61924;
 }
 
-
-.title{
-    font-family: 'Francois One', sans-serif;
-    font-size: 22px;
-    color:#00001F;
-    text-transform: uppercase;
-    margin-left:20px; 
+.navbar-default .navbar-nav>li>a:active {
+  color: #b61924;
 }
 
-
-
-.title_post{
-    font-family: 'Francois One', sans-serif;
-    font-size: 30px;
-    color:#00001F;
-    text-transform: uppercase;
-    margin-bottom:5px; 
+.icon-nav{
+  margin-right: 15px;
 }
 
-.subtitle{
-    font-family: 'Francois One', sans-serif;
-    font-size: 14px;
-    color : #999;
-    margin-left:5px; 
-    margin-bottom: 30px; 
-    padding-rigth:20px; 
-    margin-left:20px; 
+@media (min-width: 750px) and (max-width: 970px) {
+  .navbar-right li{
+    margin-left: 2px;
+    font-size: 18px;
+  }
+  .icon-nav{
+    margin-right: 5px;
+  }
 }
 
-.no_margin{
-    margin-left: 0;
-    margin-right: 0;
+@media (min-width: 970px) and (max-width: 1200px) {
+  .navbar-right li{
+    margin-left: 6px;
+    font-size: 18px;
+  }
+  .icon-nav{
+    margin-right: 10px;
+  }
 }
 
-a { 
-    color: #00001F; 
-    text-decoration: none; 
-}
-a:hover   { 
-    color: #F54A05; 
-    text-decoration: none; 
-}
-a:visited { 
-    color: #00001F; 
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
 }
 
-
-table {
-    border:none; 
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
 }
 
-.social-ul li{
-    font-size:30px;
-    display:inline;
-    padding:0 20px}
-
-.social-ul li a{
-    color:#777
+strong{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #b61924;
 }
 
-.social-ul li a:hover{
-    color:#aaa
+p{
+letter-spacing: 0;
+font-weight: 400;
+font-style: normal;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-moz-font-feature-settings: "liga" on;
+color: #333;
+font-size: 20px;
+line-height: 1.6;
 }
 
+@media (max-width: 768px){
+.container-perso{
 
-
-.container_perso{
-    margin-top: 4%; 
+}
 }
 
+@media (min-width: 768px){
+  .container-perso{
 
-.thumbnail{
-    border:0;
-    padding: 0; 
-} 
-
-
-@media (min-width:768px) { 
-    .thumbnail{
-        min-height: 426px; 
-    }    
+  }
 }
 
-.color{
-    color: #F54A05; 
+@media (min-width: 992px){
+  .container-perso{
+
+  }
 }
 
-
-
-.white{
-    background-color: white; 
-    padding:30px;
-    margin-top:30px; 
+@media (min-width: 1170px){
+  .container-perso{
+width: 700px;
+margin: auto;
+  }
 }
-
-.fb-like{
-    margin-top:10px; 
-}
-
-.section{
-    margin-bottom:35px; 
-    margin-top:15px; 
-    margin-right: 0px;
-    margin-left: 0px;
-    text-align: justify;
-    line-height: 2;
-}
-
-.section:last-child
-{
-    margin-bottom:0px; 
-}
-
-.image{
-    margin-top: 20px; 
-    margin-bottom:20px; 
-}
-
-.image:last-child
-{
-    margin-bottom:0px; 
-}
-
-.video{
-    width:80%;
-}
-
-
