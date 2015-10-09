@@ -91,6 +91,9 @@ h1{
     position: relative;
     top: 90px;
   }
+  .text-xs{
+    dislay: none; 
+  }
 }
 
 h2{
