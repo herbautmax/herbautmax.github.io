@@ -5,8 +5,9 @@ description: "Développement de sites web : site vitrine, site e-commerce, blog,
               application interne par un ingénieur web full stack en auto entreprise"
 baseurl: ""
 url: "www.maximeherbaut.com"
-twitter_username: MaximeHerbaut
-github_username:  herbautmax
+twitter_username:  MaximeHerbaut
+github_username:   herbautmax
+linkedin_username: maximeherbaut
 
 # Build settings
 markdown: kramdown
