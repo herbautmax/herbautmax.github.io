@@ -80,7 +80,7 @@ h1{
   width: 396px;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   h1{
     font-size: 35px;
     letter-spacing: 0px;
@@ -92,7 +92,7 @@ h1{
     top: 90px;
   }
   .text-xs{
-    dislay: none; 
+    dislay: none;
   }
 }
 
