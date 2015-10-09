@@ -80,7 +80,7 @@ h1{
   width: 396px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 650px) {
   h1{
     font-size: 35px;
     letter-spacing: 0px;
