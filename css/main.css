@@ -63,6 +63,24 @@ body{
 h1{
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
+  color: white;
+  font-size: 45px;
+  margin: 0;
+  margin: auto;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+  width: 396px;
+}
+
+@media (max-width: 750px) {
+  h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    letter-spacing: 0px;
+    width: 250px;
+  }
 }
 
 h2{
@@ -70,6 +88,8 @@ h2{
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+
 
 a{
   color: #b61924;
@@ -164,18 +184,6 @@ p{
   text-align: center;
 }
 
-h1{
-  color: white;
-  font-size: 45px;
-  margin: 0;
-  margin: auto;
-  margin-bottom: 50px;
-  border-bottom: 3px solid #fff;
-  padding-bottom: 10px;
-  letter-spacing: 5px;
-  width: 396px;
-}
-
 .text{
   width: 80%;
   margin: auto;
@@ -190,8 +198,8 @@ h1{
 
 @media (max-width: 768px){
   .text p{
-    font-size: 22px;
-    line-height: 42px;
+    font-size: 18px;
+    line-height: 36px;
   }
   .text{
     width: 90%;
@@ -260,7 +268,7 @@ h1{
 
 .sous-section{
   margin-top: 20px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .box-card{;
@@ -268,27 +276,27 @@ h1{
 }
 
 .box-icon{
-    font-size: 60px;
-      color: #b61924;
-      margin-bottom: 5px;
-      text-align: center;
+  font-size: 60px;
+  color: #b61924;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .cursor{
-cursor:pointer;
+  cursor:pointer;
 }
 
 .send{
   font-size: 18px;
-    background-color: #b61924;
-    color: white;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-    padding-left: 30px;
-    padding-right: 30px;
+  background-color: #b61924;
+  color: white;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .send-icon{
@@ -300,11 +308,11 @@ cursor:pointer;
   top: 1px;
   z-index: 10000000002;
   width: 100%;
-border-color: #b61924;
-background-color: #b61924;
-color: white;
-font-size: 18px;
-display: none;
+  border-color: #b61924;
+  background-color: #b61924;
+  color: white;
+  font-size: 18px;
+  display: none;
 }
 
 .real{
@@ -314,53 +322,53 @@ display: none;
 }
 
 .real a:hover{
-text-decoration:none;
+  text-decoration:none;
 }
 
 .view {
-    overflow: hidden;
-    position: relative;
-    text-align: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
 }
 
 .view .mask, .view .content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
 }
 
 .view img {
-width: 100%;
+  width: 100%;
 }
 
 .view h4 {
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 18px;
-    padding: 10px;
-    font-weight: 700;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 700;
 }
 
 .view p {
-    font-style: italic;
-    font-size: 14px;
-    position: relative;
-    color: #fff;
-    padding: 10px 20px 3%;
-    text-align: center
+  font-style: italic;
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 3%;
+  text-align: center
 }
 
 .view div.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background-color: #b61924;
-    color: #fff;
-    box-shadow: 0 0 1px #333
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background-color: #b61924;
+  color: #fff;
+  box-shadow: 0 0 1px #333
 }
 
 .view div.info:hover {
@@ -368,46 +376,59 @@ width: 100%;
 }
 
 .view-first img {
-    transition: all 0.2s linear;
-    min-height: 174px;
+  transition: all 0.2s linear;
+  min-height: 180px;
 }
+
+@media (min-width: 750px) and (max-width: 970px) {
+  .view-first img {
+    min-height: 194px;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1170px) {
+  .view-first img {
+    min-height: 194px;
+  }
+}
+
 .view-first .mask {
-    opacity: 0;
-    background-color: rgba(51,51,51, 0.7);
-    transition: all 0.4s ease-in-out;
+  opacity: 0;
+  background-color: rgba(51,51,51, 0.7);
+  transition: all 0.4s ease-in-out;
 }
 .view-first h4 {
-    transform: translateY(-100px);
-    opacity: 0;
-    transition: all 0.2s ease-in-out;
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 .view-first p {
-    transform: translateY(100px);
-    opacity: 0;
-	transition: all 0.2s linear;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
 }
 .view-first div.info{
-    opacity: 0;
-	transition: all 0.2s ease-in-out;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
 }
 
 .view-first:hover img {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 .view-first:hover .mask {
-	opacity: 1;
+  opacity: 1;
 }
 .view-first:hover h4,
 .view-first:hover p,
 .view-first:hover div.info {
-    opacity: 1;
-    transform: translateY(0px);
+  opacity: 1;
+  transform: translateY(0px);
 }
 .view-first:hover p {
-    transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 .view-first:hover div.info {
-    transition-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .techno li{
@@ -423,10 +444,11 @@ h3{
 
 .footer1{
   background-color: #b61924;
-   margin-top: 60px;
-   padding-bottom: 5px;
-   padding-top: 20px;
-   color: white;
+  margin-top: 60px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
 }
 
 .p-footer{
@@ -435,25 +457,24 @@ h3{
 }
 
 .copyright{
-text-align: center;
-margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
 
 .copyright a{
-color: white;
+  color: white;
 }
 
 .copyright a:hover{
-color: white;
+  color: white;
 }
 
 .copyright a:visited{
-color: white;
+  color: white;
 }
 
 .social{
   font-size: 50px;
-  margin-right: 20px;
   color: white;
 }
 
