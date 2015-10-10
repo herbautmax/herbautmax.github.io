@@ -47,7 +47,7 @@ $( document ).ready(function() {
 
 <script type="text/javascript">
 $( ".close-nav" ).click(function() {
-$('.navbar-collapse').collapse('hide');
+
 });
 </script>
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
         var clickover = $(event.target);
         var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
         if (_opened === true && !clickover.hasClass("navbar-toggle")) {
-            $("button.navbar-toggle").click();
+            $('.navbar-collapse').collapse('hide');
         }
     });
 });
