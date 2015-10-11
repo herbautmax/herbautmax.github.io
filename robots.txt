@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: http://www.maximeherbaut.com/sitemap.xml
+
+ok
