@@ -1,0 +1,288 @@
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+a{
+  color: #b61924;
+}
+
+a:hover{
+  color: #b61924;
+}
+
+.section{
+  margin-top: 70px;
+}
+
+strong{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+p{
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+  color: #333;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px){
+  .container-perso{
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px){
+  .container-perso{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px){
+  .container-perso{
+    width: 700px;
+    margin: auto;
+  }
+}
+
+.m{
+  margin-top: 20px;
+}
+
+.sous-section{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.box-card{;
+  margin-bottom:20px;
+}
+
+.box-icon{
+  font-size: 60px;
+  color: #b61924;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.cursor{
+  cursor:pointer;
+}
+
+.send{
+  font-size: 18px;
+  background-color: #b61924;
+  color: white;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.send-icon{
+  margin-right: 10px;
+}
+
+#alert{
+  position: absolute;
+  top: 1px;
+  z-index: 10000000002;
+  width: 100%;
+  border-color: #b61924;
+  background-color: #b61924;
+  color: white;
+  font-size: 18px;
+  display: none;
+}
+
+.real{
+  cursor: pointer;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.real a:hover{
+  text-decoration:none;
+}
+
+.view {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.view .mask, .view .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0
+}
+
+.view img {
+  width: 100%;
+}
+
+.view h4 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.view p {
+  font-style: italic;
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  padding: 10px 20px 3%;
+  text-align: center
+}
+
+.view div.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background-color: #b61924;
+  color: #fff;
+  box-shadow: 0 0 1px #333
+}
+
+.view div.info:hover {
+
+}
+
+.view-first img {
+  transition: all 0.2s linear;
+  min-height: 180px;
+}
+
+@media (min-width: 750px) and (max-width: 970px) {
+  .view-first img {
+    min-height: 194px;
+  }
+}
+
+@media (min-width: 970px) and (max-width: 1170px) {
+  .view-first img {
+    min-height: 194px;
+  }
+}
+
+.view-first .mask {
+  opacity: 0;
+  background-color: rgba(51,51,51, 0.7);
+  transition: all 0.4s ease-in-out;
+}
+.view-first h4 {
+  transform: translateY(-100px);
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.view-first p {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.view-first div.info{
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img {
+  transform: scale(1.1);
+}
+.view-first:hover .mask {
+  opacity: 1;
+}
+.view-first:hover h4,
+.view-first:hover p,
+.view-first:hover div.info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.view-first:hover p {
+  transition-delay: 0.1s;
+}
+.view-first:hover div.info {
+  transition-delay: 0.2s;
+}
+
+.techno li{
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h3{
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.footer1{
+  background-color: #b61924;
+  margin-top: 60px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+}
+
+.p-footer{
+  color: white;
+  font-size: 16px;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.copyright a{
+  color: white;
+}
+
+.copyright a:hover{
+  color: white;
+}
+
+.copyright a:visited{
+  color: white;
+}
+
+.social{
+  font-size: 50px;
+  color: white;
+}
+
+.hi-icon{
+  color: white;
+}
+
+.hi-icon:hover{
+  color: white;
+}
+
+.hi-icon:visited{
+  color: white;
+}
+
+.hi-icon:active{
+  color: white;
+}
