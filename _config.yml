@@ -2,7 +2,7 @@
 title: Maxime Herbaut • Ingénieur Développeur site web full stack
 email: maxime-herbaut@orange.fr
 description: "Développement personnalisé de vos sites web : site vitrine, site e-commerce, blog,
-              application interne par un ingénieur web full stack en auto entreprise. Prise en charge du référencement SEO,  
+              application interne par un ingénieur web full stack en auto entreprise. Prise en charge du référencement SEO,
               ergonomie UX, design et data analyse."
 baseurl: ""
 url: "http://www.maximeherbaut.com/"
@@ -13,6 +13,3 @@ linkedin_username: maximeherbaut
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-paginate: 6                   # le nombre d'articles à afficher par page
-paginate_path: /page:num      # l'url générée pour la pagination
