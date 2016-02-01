@@ -55,4 +55,10 @@ $(document).ready(function() {
     }
   });
 
+  //section
+  $('body').scrollspy({
+    target: '.navbar-fixed-top',
+    offset: 400
+  })
+
 });
