@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Comparer Google et Bing dans l'interprétation du nofollow"
+description: "Le nofollow est un attribut de la balise < a > en HTML qui permet de créer des liens.
+Mais quelle en est son interprétation par les moteurs de recherches Google et Bing ?"
+date: 2015-10-30 13:12:13
+dateModified : 2016-01-20
+permalink: comparer-google-bing-interpretation-nofollow
+tags: protocole
+image : /images/bing-google-nofollow.png
+alt : Comparer Google et Bing dans l'interprétation du nofollow
+---
+
+<h2>L'interprétation du nofollow</h2>
+<p>
+  L'attribut nofollow indique aux moteurs de recherches comme Google ou Bing de
+  "ne pas suivre ce lien spécifique" présent sur la page. En effet, à l'origine,
+  les webmasters pouvaient indiquer dans une meta sur leur page qu'il ne fallait
+  pas suivre tous les liens de cette page :
+</p>
+<pre>&lt;meta name="robots" content="noindex,nofollow"&gt;</pre>
+<p>
+  Cependant il était très difficile au sein d'une page d'indiquer aux moteux de recherches
+  de ne pas suivre certains liens. C'est pourquoi l'attribut nofollow a
+  été créé. Il se place simplement dans la balise < a > comme ci dessous :
+</p>
+<pre>&lt;a rel="nofollow"&gt;page nofollow&lt;/a&gt;</pre>
+
+<p>
+  De plus, alors que les liens entrants vers son site sont très bénéfiques pour le SEO
+  (ils représenteraient plus de 20% dans l'algorithme de PageRank), le nofollow sert également
+  à limiter le spam sur les blogs et les forums. En effet, de nombreux commentaires et
+  messages étaient postés sur ce type de plateforme uniquement pour obtenir des liens
+  supplémentaires vers son site.
+</p>
+
+<p>
+  Ainsi, à travers cette étude, nous allons comparer Google et Bing
+  sur leur interprétation du nofollow et essayer de comprendre son influence
+  sur le référencement naturel.
+</p>
+
+
+
+<h2>Ce que les autres pensent du nofollow</h2>
+
+<h3>Selon Google</h3>
+<p>
+  Google indique dans son centre d'aide, qu'en règle générale, les robots Google
+  ne suivent pas ces liens. C'est à dire, qu'ils ne transfèrent ni le lien, ni le texte
+  d'ancrage pour le calcul du PageRank. Ils supprimeraient même ces liens cibles de leur index
+  à condition qu'aucun autre lien (n'utilisant pas l'attribut nofollow) ne renvoit vers
+  la page ou que l'url de la page n'est pas présente dans un sitemap.
+</p>
+
+<h3>Selon Bing</h3>
+<p>
+  Bing dit simplement que leurs robots comprennent l'attribut nofollow mais ne précisent
+  pas davantage leurs comportements face à ce type de lien.
+</p>
+
+<h3>Selon Wikipédia</h3>
+<p>
+  Wikipédia affirme que les Google et Bing respectent la directive, et donc, ne prennent
+  pas en compte les liens en nofollow.
+</p>
+
+<h2>Problématique</h2>
+<p>
+Les différentes questions qui se posent sont : est-ce que les moteurs de recherche
+vont quand même "crawler" la page correspondante à un lien nofollow? Qu'en font-ils
+ensuite?
+</p>
+<p>
+Cela soulève également d'autres enjeux du référencement naturel. L'algorithme
+de PageRank s'appuye sur la quantité mais surtout la qualité des liens entrants vers un site.
+De plus, le poid des liens sortants d'un site est divisé par le nombre de liens. Ainsi,
+les moteurs de recherches prennent-ils en compte le nombre de liens en follow ou le nombre de liens
+total?
+</p>
+<p>
+  De plus, nous avons posté des commentaires sur les blogs "Abondance", "supermarketeur" et "NeilPatel"
+  avec des liens vers le site <a href="http://www.referencement-web.site" title="référencement naturel web">Référencement web</a>. Ces liens sont
+  en no follow mais pourtant ils sont listés dans le Google Search Console.
+</p>
+
+<img src="http://{{ site.url}}/images/liens-entrants.png" alt="liens entrants no follow"/>
+
+<p style="margin-top: 40px">
+  <a rel="nofollow" href="http://nofollow.cypriengilbert.com/">page nofollow</a>
+</p>
+
+<p>
+   <a href="http://www.referencement-web.site/recherche-mobile-google/" title="recherche mobile Google">recherche mobile Google</a><br>
+   <a href="http://www.referencement-web.site/comportement-robot-indexeur-google-bing" title="comportement des robots indexeurs">Comportement des robots indexeurs</a><br>
+</p>
