@@ -38,40 +38,16 @@
 -->
 
 <script>
-// Include the UserVoice JavaScript SDK (only needed once on a page)
-UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/x81jL1gUJHAQQ1jdHCPg.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
-
-// Set colors
-UserVoice.push(['set', {
-  accent_color: '#e23a39',
-  trigger_color: 'white',
-  trigger_background_color: '#e23a39'
-}]);
-
-// Identify the user and pass traits
-// To enable, replace sample data with actual user traits and uncomment the line
-UserVoice.push(['identify', {
-  //email:      'john.doe@example.com', // User’s email address
-  //name:       'John Doe', // User’s real name
-  //created_at: 1364406966, // Unix timestamp for the date the user signed up
-  //id:         123, // Optional: Unique id of the user (if set, this should not change)
-  //type:       'Owner', // Optional: segment your users by type
-  //account: {
-  //  id:           123, // Optional: associate multiple users with a single account
-  //  name:         'Acme, Co.', // Account name
-  //  created_at:   1364406966, // Unix timestamp for the date the account was created
-  //  monthly_rate: 9.99, // Decimal; monthly rate of the account
-  //  ltv:          1495.00, // Decimal; lifetime value of the account
-  //  plan:         'Enhanced' // Plan name for the account
-  //}
-}]);
-
-// Add default trigger to the bottom-right corner of the window:
-UserVoice.push(['addTrigger', {trigger_position: 'bottom-right' }]);
-
-// Or, use your own custom trigger:
-//UserVoice.push(['addTrigger', '#id']);
-
-// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
-UserVoice.push(['autoprompt', {}]);
+  !function(){var e=window._ramen=window._ramen||[];if(!e.initialize){if(e.invoked)return void(window.console&&console.error&&console.error("Ramen snippet included twice."));e.invoked=!0,e.methods=["boot","ready","identify","group","track","page","reset","ask"],e.factory=function(r){return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(r),e.push(t),e}};for(var r=0;r<e.methods.length;r++){var t=e.methods[r];e[t]=e.factory(t)}var n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://cdn.ramen.is/assets/ramen.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o)}}();
+  _ramen.boot('570e0bbf6462372285472000');
+  _ramen.identify()
+  // 😻 If you want to identify logged in users, you'll need to have a
+  // developer take a look at everything below this line
+  //
+  // _ramen.identify({
+  //   id: "12345-replace", // Replace with a unique user ID. Could be their email
+  //   email: "customer@example.com", // Replace with their email address
+  //   name: "Bugs Bunny" // Replace with their name
+  // });
+  // Check out our options at http://docs.ramen.is/
 </script>
